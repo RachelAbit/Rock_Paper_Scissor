@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+
+    <h1><span class="one">Rock</span> - <span class="two">Paper</span> - <span class="three">Scissor</span></h1>
+
+    <div>
+        <p>Player Choose: <span class="pl-choose"></span></p>
+        <p>Computer Choose: <span class="com-choose"></span></p>
+    </div>
+
+    <div>
+        Score: <span class="plScore"></span>
+        <br>
+        Player Result: <span class="player-res"></span>
+    </div>
+    <br>
+    <br>
+    <div class="com-res">
+        Score: <span class="compScore"></span><br>
+        Computer Result: <span class="com-res"></span>
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+        <button data-action="Rock">Rock</button>
+        <button data-action="Paper">Paper</button>
+        <button data-action="Scissor">Scissor</button>
+    </div>
     
 </body>
 </html>

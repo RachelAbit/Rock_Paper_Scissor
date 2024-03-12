@@ -83,9 +83,8 @@ function playGame(){
     playRound(player_choice, computer_choice);
 }
 
-playGame();
-playGame();
-playGame();
-playGame();
-playGame();
+const button = document.querySelectorAll('button');
 
+button.forEach(btn =>{
+    
+})

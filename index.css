@@ -1,0 +1,15 @@
+.one{
+    color: blue;
+}
+.two{
+    color: red;
+}
+.three{
+    color: green;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
