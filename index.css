@@ -13,3 +13,6 @@ body{
     justify-content: center;
     align-items: center;
 }
+.result{
+    color: rgb(22, 144, 185);
+}
